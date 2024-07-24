@@ -1,0 +1,6 @@
+
+<div class="navigator d-flex align-items-center gap-4">
+  <li (click)="setView('/repositories')">Repositories</li>
+  <li (click)="setView('/bookmarks')">My Bookmarks</li>
+  <li><search-input (onSearchInput)="query($event)"></search-input></li>
+</div>

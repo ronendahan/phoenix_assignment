@@ -1,0 +1,10 @@
+.main-container {
+    height: 100vh;
+    padding: 0;
+}
+
+.main-stage {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}

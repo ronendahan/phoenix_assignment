@@ -1,0 +1,3 @@
+<ng-container *ngIf="(repository$ | async) as repository">
+    <repository-list [repositories]="repository.items"></repository-list>
+</ng-container>

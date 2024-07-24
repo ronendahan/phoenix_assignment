@@ -1,0 +1,3 @@
+<ng-container *ngIf="(bookmarks$ | async) as bookmarks">
+    <repository-list [repositories]="bookmarks"></repository-list>
+</ng-container>

@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 55px;
+    padding: 1rem;
+    color: var(--color-default);
+    background-color: var(--default-bg);
+    border-top: solid 1px var(--border-color);
+    border-bottom: solid 1px var(--border-color);
+}
+
+.github-logo {
+    background-image: url(../../assets/github-brands-solid.svg);
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+
+}
+

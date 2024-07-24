@@ -1,0 +1,26 @@
+.avatar {
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.repository-description, .repository-name{
+  white-space: nowrap;
+  width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.repository-name {
+  width: 100px;
+}
+
+.body {
+  flex: 2
+}
+
+.bookmark {
+  flex: 1;
+}
+
