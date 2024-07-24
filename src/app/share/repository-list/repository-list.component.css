@@ -1,0 +1,8 @@
+.search-input-container {
+    width: 30%;
+}
+
+[class*='col-'] {
+  padding-right:0 !important;
+  padding-left:0 !important;
+}

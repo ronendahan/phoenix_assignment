@@ -1,0 +1,21 @@
+<div class="repostiory-card">
+    <div >
+        <div class="d-flex gap-1">
+            <picture>
+                <img
+                [src]="item.owner.avatar_url"
+                loading="lazy"
+                decoding="async"
+                fetchPriority="auto"
+                class="avatar">
+            </picture>
+            <div>
+                <a [href]="item.url" target="_blank"><span class="repository-name">{{item.name.replaceAll('-', ' ')}}</span></a>
+            </div>
+        </div>
+        <div class="repository-description">{{item.description}}</div>
+    </div>
+    <div class="py-1">
+        <button type="button" class="button button-blue" (click)="bookmark()">Star <i class="fa-star" [ngClass]="{'fa-solid': item.isMarked, 'fa-regular': !item.isMarked}"></i></button>
+    </div>
+</div>

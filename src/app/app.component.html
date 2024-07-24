@@ -1,0 +1,7 @@
+<main class="container-fluid main-container">
+    <app-header></app-header>
+    <app-navigator (onViewSelected)="navigateToView($event)"></app-navigator>
+    <div class="main-stage">
+        <router-outlet></router-outlet>
+    </div>
+</main>

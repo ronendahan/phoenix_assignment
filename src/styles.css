@@ -1,0 +1,91 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+    --default-bg :#f6f8fa;
+    --color-default: #1f2328;
+    --default-border-color: #ccc;
+}
+
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+
+body {
+  font-family: "Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+
+button {
+    color: var(--color-default);
+    background-color: var(--default-bg);
+    border-color: var(--border-color);
+    border: 1px solid;
+    border-radius: 6px;
+    text-wrap: nowrap;
+}
+
+.form-control{
+    height: 30px;
+    color: #4A4A4A;
+    background-color: #fff !important;
+    border: solid 1px #eee;
+    border-radius: 0px !important;
+}
+
+
+.form-control:focus {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+
+.repostiory-card {
+    border: solid 1px var(--default-border-color);
+    padding: .5rem;
+    margin: 1rem;
+    height: 100px !important;
+    border-radius: 10px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    * {
+        font-size: 10px;
+    }
+
+    .button{
+        height: 25px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    * {
+        font-size: 12px;
+    }
+
+    .button{
+        height: 25px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    * {
+        font-size: 14px;
+    }
+
+    .button{
+        height: 30px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    * {
+        font-size: 100%;
+    }
+
+    .button{
+        height: 30px;
+    }
+}
